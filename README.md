@@ -2,4 +2,7 @@
 
 Jupyter notebooks containing implementations of built-in data structures in Python.
 
-Content aggregated from online courses, Youtube workshops, and StackOverflow.
+Content aggregated from:
++ Online courses - edX, Udemy, Coursera
++ Youtube tutorials
++ StackOverflow - Q&As, comment section
