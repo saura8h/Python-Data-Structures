@@ -1,2 +1,3 @@
 *.txt
 *.ipynb_*
+.DS_Store
