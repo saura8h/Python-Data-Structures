@@ -4,5 +4,5 @@ Jupyter notebooks containing implementations of built-in data structures in Pyth
 
 Content aggregated from:
 + Online courses - edX, Udemy, Coursera
-+ Youtube tutorials
-+ StackOverflow - Q&As, comment section
++ Python Crash Course (2nd Edition)
++ StackOverflow - most voted, Q&As, comment section
