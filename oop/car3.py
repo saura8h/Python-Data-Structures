@@ -36,7 +36,7 @@ class Car:
 
     def increment_odometer(self, miles):
         """
-        Add he given amount of miles to the odometer reading.
+        Add the given amount of miles to the odometer reading.
         """
         self.odometer_reading += miles
 
@@ -59,6 +59,9 @@ class ElectricCar(Car):
 
 
 """
+Using inheritance, the child class can inherit any or all of the attributes
+and methods of its parent class, but it’s also free to define new attributes
+and methods of its own.
 Apart from __init__(), there are no attributes or methods that are particular
 to an electric car.
 The electric car has attributes make, model, year, and odometer_reading from
