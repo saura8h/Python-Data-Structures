@@ -32,10 +32,7 @@ class Car:
         Good practice to modify attribute in a class method, not using
         objects (outside class) like: my_new_car.odometer_reading = 23.
         """
-        if mileage >= self.odometer_reading:
-            self.odometer_reading = mileage
-        else:
-            print("You can't roll back an odometer!")
+        self.odometer_reading = mileage
 
 
 my_new_car = Car('Audi', 'A4', 2019)
