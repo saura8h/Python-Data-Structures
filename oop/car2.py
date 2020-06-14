@@ -10,7 +10,7 @@ class Car:
         self.make  = make
         self.model = model
         self.year  = year
-        self.odometer_reading = 0    # default value for attribute
+        self.odometer_reading = 0
 
     def description(self):
         """
@@ -28,9 +28,6 @@ class Car:
     def update_odometer(self, mileage):
         """
         Modify default attribute of odometer.
-
-        Good practice to modify attribute in a class method, not using
-        objects (outside class) like: my_new_car.odometer_reading = 23.
         """
         if mileage >= self.odometer_reading:
             self.odometer_reading = mileage
