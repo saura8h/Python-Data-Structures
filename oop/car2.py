@@ -36,7 +36,7 @@ class Car:
 
     def increment_odometer(self, miles):
         """
-        Add he given amount of miles to the odometer reading.
+        Add the given amount of miles to the odometer reading.
         """
         self.odometer_reading += miles
 
